@@ -7,7 +7,7 @@ function App() {
     <div>
       <Parent age={age} />
       <br/>
-      <button onClick={ () => setAge(age++) }>Increase Age</button>
+      <button onClick={ () => setAge(++age) }>Increase Age</button>
     </div>
   );
 }
