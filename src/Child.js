@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import ValueContext from './ValueContext';
 
-function Child({age}) {
+function Child() {
+    const value = useContext(ValueContext);
     return (
         <div>
             I am child <br/>
-            Age: {age}
+            Age: {value}
         </div>
     )
 }
