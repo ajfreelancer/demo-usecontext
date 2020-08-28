@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Parent from './Parents';
+import Parent from './Parent';
 
 function App() {
   let [age, setAge] = useState(25);
