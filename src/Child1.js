@@ -7,7 +7,7 @@ function Child1() {
 
     return (
         <div>
-            I am Child1 state = {state}
+            Child1 state = {state}
             <button
                 onClick = { () => changeState( {type: "INCREMENT", val: 10} )}>
                 Increment
